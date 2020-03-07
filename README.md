@@ -1,6 +1,5 @@
 # CoherenceFramework
 
-==================
 This is the original README.md file. For the summarizer built for the R250 module, please see directly the [README](./summarizer_r250/README.md) related to this specific task. All code related to the multi-graph summarizer for the R250 module is within the `summarizer_r250 folder`, which is an independent folder from the rest of the code.
 
 Below is the original content :
