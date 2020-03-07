@@ -33,11 +33,11 @@ The script [rouge_score](./pyrouge/rouge_score.py) displays an example of how to
 
 ## Describing project architecture
 
-* [data](./data)  : folder you should build to make the current scripts work, once you have the DUC dataset.
-  * [sentences_doc](./data/sentences_doc) : Raw concatenated sentences from each set of documents
-  * [sentences_grid](./data/sentences_grid)
-  * [sentences_trees](./data/sentences_trees)
-  * [summaries](./data/summaries) : config class
+* [data]  : folder you should build to make the current scripts work, once you have the DUC dataset.
+  * [sentences_doc] : Raw concatenated sentences from each set of documents
+  * [sentences_grid]
+  * [sentences_trees]
+  * [summaries]
 * [duc2005] : the datasets should be in the main folder
 * [pyrouge](./pyrouge) : Python wrapper for ROUGE
 * [ROUGE-1.5.5](./ROUGE-1.5.5) : original ROUGE Perl code
@@ -49,5 +49,6 @@ The script [rouge_score](./pyrouge/rouge_score.py) displays an example of how to
 * [make_summaries](./make_summaries.py) : Command lines to generate all summaries for all topics, given a lambda value
 * [mmr_summarizer](./mmr_summarizer.py) : Modified version of the MMR-MD algorithm
 * [parsedoctext](./parsedoctext.py) : Parsing sentences
-* [pre_preocess](./pre_process.py) : Word stemming
+* [pre_process](./pre_process.py) : Word stemming
+* [rouge_score](./rouge_score.py) : To be put in the pyrouge folder when you cloned the pyrouge repo.
 * [sentence](./sentence.py) : Sentence object
