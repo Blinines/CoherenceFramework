@@ -1,0 +1,9 @@
+data/sentences_doc/
+data/sentences_grid/
+data/sentences_trees/
+data/summaries/
+duc2003/
+duc2005/
+stanford-parser-full-2014-10-31/
+*.pyc
+run_data.py
